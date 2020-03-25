@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>materialize practice</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!-- Start Parallax Header -->
+<header>
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">Materialize</a>
+          <ul class="right side-nav" id="nav-mobile">
+            <li class="hide-on-small-only"><a href="collapsible.html"><i class="material-icons">arrow_back</i></a></li>
+          </ul>
+          <a class="button-collapse" href="#" data-activates='nav-mobile'><i class="material-icons">menu</i></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Parallax Header -->
+  
+  <!-- Start Parallax  -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/images/Screen Shot 2020-03-24 at 11.13.26 PM.png" class="responsive-img" alt="Parallax"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">Parallax</h2>
+        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image 
+        in this case, is moved at a different speed than the foreground content while scrolling.</p>
+      </div>
+      <div class="row container">
+        <h4 class="light">Parallax Demo</h4>
+        <p align="justify">
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+         industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+         scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+         into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the 
+         release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+         software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+         <h4 class="light">Parallax Demo</h4>
+         <p align="justify">
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+         mollit anim id est laborum."</p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/images/Screen Shot 2020-03-24 at 11.13.26 PM.png" class="responsive-img" alt="Parallax"></div>
+    </div>
+  <!-- End Parallax  -->
+  
+  <!-- Start Parallax Javascript -->
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+  </script>
+  <!-- EndParallax Javascript -->
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
